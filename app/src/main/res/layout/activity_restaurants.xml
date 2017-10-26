@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hyup3.cougareatreservation.RestaurantsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/moneyTextView"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ImageButton
+        android:id="@+id/chickfilaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/chickfila" />
+
+    <ImageButton
+        android:id="@+id/papajohnsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/papjohns" />
+
+
+    <ImageButton
+        android:id="@+id/subwayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/subway" />
+
+     <ImageButton
+         android:id="@+id/tacobellButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@android:color/transparent"
+         app:srcCompat="@drawable/tacobell" />
+
+
+     <ImageButton
+            android:id="@+id/alohaplateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/alohaplate" />
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hyup3.cougareatreservation.FoodCouurt.ChickfilaActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView />
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/menuButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/chicken_sandwich" />
+
+            <ImageButton
+                android:id="@+id/menuButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/deluxe_sandwich" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="20dp">
+            <TextView
+                android:id="@+id/menuTextView1"
+                android:layout_width="50dp"
+                android:layout_marginLeft="50dp" />
+
+            <TextView
+                android:id="@+id/menuTextView2"
+                android:layout_width="50dp"
+                android:layout_marginLeft="80dp" />
+        </TableRow>
+
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/menuButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/spicy_sandwich" />
+
+            <ImageButton
+                android:id="@+id/menuButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/spicy_deluxe_sandwich" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="20dp">
+            <TextView
+                android:id="@+id/menuTextView3"
+                android:layout_width="50dp"
+                android:layout_marginLeft="50dp" />
+
+            <TextView
+                android:id="@+id/menuTextView4"
+                android:layout_width="50dp"
+                android:layout_marginLeft="80dp" />
+        </TableRow>
+
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/menuButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/grilled_chicken_sandwich" />
+
+            <ImageButton
+                android:id="@+id/menuButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/grilled_chicken_club_sandwich" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="20dp">
+            <TextView
+                android:id="@+id/menuTextView5"
+                android:layout_width="50dp"
+                android:layout_marginLeft="50dp" />
+
+            <TextView
+                android:id="@+id/menuTextView6"
+                android:layout_width="50dp"
+                android:layout_marginLeft="80dp" />
+        </TableRow>
+
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/menuButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/grilled_chicken_cool_wrap" />
+
+
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="20dp">
+            <TextView
+                android:id="@+id/menuTextView7"
+                android:layout_width="50dp"
+                android:layout_marginLeft="50dp" />
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+</LinearLayout>
